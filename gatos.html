@@ -4,81 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./asset/css/pag-gatos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
  
     <title>ONG|Gatos en adopcion</title>
     
 </head>
 <body>
     
-    <header>
-        <a href="./index.html" class="btn-blue">Volver al Inicio</a>
 
-        <!--Titulo-->
-        <h1><b>Gatos en busca de familias felices</b></h1>
-    </header>
-    <nav>
-        <div class="barra">
-            <h2>ONG</h2>
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./gatos.html">Gatos😺</a></li>
-                <li><a href="./perros.html">Perros🐶</a></li>
-                <li><a href="./sobrenosotros.html">Sobre Nosotros🕵️‍♀️🕵️‍♂️</a></li>
-            </ul>
-            <h2>Gatos en adopcion</h2>
-        </div>    
-    </nav>
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">ONG</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./index.html">Home
+                      
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./gatos.html">Gatos😺</a>
+                    <span class="visually-hidden">(current)</span>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./perros.html">Perros🐶</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./sobrenosotros.html">Sobre Nosotros🕵️‍♀️🕵️‍♂️</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-sm-2" type="cambiar a barra de filto" placeholder="cambiar a barra de filto">
+                  <button class="btn btn-secondary my-2 my-sm-0" type="submit">Filtrar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+            <h2>Gatos en adopcion</h2> 
+
+
+        
+
+
+
 
     <main>
-        <a href="./Gatos-adopcion/Lucky.html" class="tag" >
+
+        <div class="card" style="width: 18rem;">
             <img  src="./Gatos-adopcion/asset/img/lucky.png" alt="gato-lucky">
-
-            <div class="tag-conte">
-                <h2 class="tag-titulo">Lucky</h2>
-                <p class="tag-descip">2 Años</p>
+            <div class="card-body">
+              <h5 class="card-title">Lucky</h5>
+              <p class="card-text">2 Años.</p>
+              <a href="./Gatos-adopcion/Lucky.html" class="btn btn-primary">Mas info.</a>
             </div>
-        </a>
+          </div> 
 
-        <a href="./Gatos-adopcion/Jack.html" class="tag">
+          <div class="card" style="width: 18rem;">
             <img  src="./Gatos-adopcion/asset/img/jack.jpg" alt="gato-jack">
-
-            <div class="tag-conte">
-                <h2 class="tag-titulo">Jack</h2>
-                <p class="tag-descip">4 meses</p>
+            <div class="card-body">
+              <h5 class="card-title">Jack</h5>
+              <p class="card-text">4 meses.</p>
+              <a href="./Gatos-adopcion/Jack.html" class="btn btn-primary">Mas info.</a>
             </div>
-        </a>
-        <a href="./Gatos-adopcion/Simon.html" class="tag">
+          </div> 
+
+
+          <div class="card" style="width: 18rem;">
             <img  src="./Gatos-adopcion/asset/img/simon.jpg" alt="gato-simon">
-
-            <div class="tag-conte">
-                <h2 class="tag-titulo">Simon</h2>
-                <p class="tag-descip">5 años</p>
+            <div class="card-body">
+              <h5 class="card-title">Simon</h5>
+              <p class="card-text">5 Años.</p>
+              <a href="./Gatos-adopcion/Simon.html" class="btn btn-primary">Mas info.</a>
             </div>
-        </a>
-        <a href="./Gatos-adopcion/Kitty.html" class="tag">
+          </div> 
+
+          <div class="card" style="width: 18rem;">
             <img  src="./Gatos-adopcion/asset/img/kitty.jpg" alt="gato-kitty">
-
-            <div class="tag-conte">
-                <h2 class="tag-titulo">Kitty</h2>
-                <p class="tag-descip">2 meses</p>
+            <div class="card-body">
+              <h5 class="card-title">Kitty</h5>
+              <p class="card-text">2 meses.</p>
+              <a href="./Gatos-adopcion/Kitty.html" class="btn btn-primary">Mas info.</a>
             </div>
-        </a>
-        <a href="./Gatos-adopcion/Wanda.html" class="tag">
+          </div> 
+
+          <div class="card" style="width: 18rem;">
             <img  src="./Gatos-adopcion/asset/img/wanda.webp" alt="gato-wanda">
-
-            <div class="tag-conte">
-                <h2 class="tag-titulo">Wanda</h2>
-                <p class="tag-descip">3 años</p>
+            <div class="card-body">
+              <h5 class="card-title">Wanda</h5>
+              <p class="card-text">3 años.</p>
+              <a href="./Gatos-adopcion/Jack.html" class="btn btn-primary">Mas info.</a>
             </div>
-        </a>
-        <a href="./Gatos-adopcion/Diana.html" class="tag">
+          </div> 
+
+          <div class="card" style="width: 18rem;">
             <img  src="./Gatos-adopcion/asset/img/diana.jpg" alt="gato-diana">
-
-            <div class="tag-conte">
-                <h2 class="tag-titulo">Diana</h2>
-                <p class="tag-descip">5 meses</p>
+            <div class="card-body">
+              <h5 class="card-title">Diana</h5>
+              <p class="card-text">5 meses.</p>
+              <a href="./Gatos-adopcion/Diana.html" class="btn btn-primary">Mas info.</a>
             </div>
-        </a>
+          </div> 
+
     </main>
     
     <footer>
@@ -86,6 +116,7 @@
         <p>La infomacio acerca de los animales en adopcion se actualizara cada semana</p>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
 </body>
 </html>
