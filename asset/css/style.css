@@ -21,7 +21,7 @@ p {
 }
 
 
-nav {
+main {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -69,3 +69,41 @@ nav {
     color: grey;
     text-align: center;
 }
+.barra {
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .barra h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .barra ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .barra li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .barra a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .barra a:hover {
+    color: #93c36a;
+  }
